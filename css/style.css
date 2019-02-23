@@ -39,7 +39,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif, 'Righteous', cursive;
-  font-weight: 400
+  font-weight: 300
 }
 
 /**********************************/
@@ -66,7 +66,7 @@ header .logo {
 }
 .content h1 {
   color: #fff;
-  font-size: 4em;
+  font-size: 3.1em;
   position: relative;
   font-weight: 400;
   margin: 0 1vw;
@@ -128,7 +128,7 @@ canvas {
   position: relative;
   float: left;
   width: 25%;
-  font-size: 4vw;
+  font-size: 3.2vw;
   font-weight: 100;
   line-height: .8em;
   letter-spacing: 2px;
@@ -139,7 +139,7 @@ canvas {
 
 #countdown > div > span {
   display: block;
-  font-size: 1.2vw;
+  font-size: 1vw;
   font-weight: 100;
   line-height: 1.2em;
   letter-spacing: 0;
@@ -147,19 +147,19 @@ canvas {
   color: #777;
   text-transform: lowercase
 }
-@media (max-width:300px) {
+@media (max-width:200px) {
     #countdown {
-        width: 88%;
+        width: 50%;
     }
     #countdown > div {
         width: 20%;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: .6em;
-        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: .5em;
+        letter-spacing: 1px;
     }
     #countdown > div > span {
-      font-size: 8px;
+      font-size: 5px;
     }
 }
 @media (max-width:500px) {

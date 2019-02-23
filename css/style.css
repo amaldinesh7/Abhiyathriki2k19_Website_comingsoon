@@ -124,7 +124,7 @@ canvas {
   display: block;
 }
 
-#countdown > div {
+#countdown > div  {
   position: relative;
   float: left;
   width: 25%;
@@ -134,7 +134,7 @@ canvas {
   letter-spacing: 2px;
   text-align: center;
   color: #ccc;
-  font-family: 'Baloo Bhaijaan',serif;
+  font-family: 'Righteous';
 }
 
 #countdown > div > span {
@@ -147,13 +147,72 @@ canvas {
   color: #777;
   text-transform: lowercase
 }
-
-@media (max-width:480px) {
+@media (max-width:300px) {
+    #countdown {
+        width: 88%;
+    }
+    #countdown > div {
+        width: 20%;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: .6em;
+        letter-spacing: 2px;
+    }
+    #countdown > div > span {
+      font-size: 8px;
+    }
+}
+@media (max-width:500px) {
+    #countdown {
+        width: 100%;
+    }
+    #countdown > div {
+        width: 23%;
+        font-size: 27px;
+        font-weight: 700;
+        line-height: .8em;
+        letter-spacing: 2px;
+    }
+    #countdown > div > span {
+      font-size: 11px;
+    }
+}
+@media (max-width:700px) {
     #countdown {
         width: 100%;
     }
     #countdown > div {
         width: 25%;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: .8em;
+        letter-spacing: 2px;
+    }
+    #countdown > div > span {
+      font-size: 11px;
+    }
+}
+@media (max-width:880px) {
+    #countdown {
+        width: 100%;
+    }
+    #countdown > div {
+        width: 50%;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: .8em;
+        letter-spacing: 2px;
+    }
+    #countdown > div > span {
+      font-size: 11px;
+    }
+}
+@media (max-width:1150px) {
+    #countdown {
+        width: 100%;
+    }
+    #countdown > div {
+        width: 100%;
         font-size: 30px;
         font-weight: 700;
         line-height: .8em;

@@ -28,7 +28,8 @@ body {
 
 .cn-button {
 	z-index: 11;
-	margin-top: 12rem;
+	
+	margin-top: 8rem;
 	padding-top: 0em;
 	width: 4em;
 	height: 4em;

@@ -1,3 +1,4 @@
+
 (function(){
 
 	var button = document.getElementById('cn-button'),

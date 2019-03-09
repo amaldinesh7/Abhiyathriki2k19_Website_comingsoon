@@ -330,7 +330,7 @@ input[type=radio]{
     margin-left: 5em;
 }
 .page-top > a> i{
-    color: #fff;
+    color: #F21F3F;
     font-size: 2em;
     position: fixed;
     left: 3em;
@@ -341,7 +341,7 @@ input[type=radio]{
 .page-top > h1{
     display: inline;
     vertical-align: middle;
-    color: #fff;
+    color: #F21F3F;
     font-size: 3em;    
     font-family: "Quicksand",
     sans-serif;

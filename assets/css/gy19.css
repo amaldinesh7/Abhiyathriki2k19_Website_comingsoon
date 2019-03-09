@@ -1060,6 +1060,10 @@ left: -15em !important;
     margin-bottom: 5px;
     font-size:12px;
 }
+
+.trans>input[type=submit]:hover{
+	 background:#F21F3F ;
+}
 .trans>input[type=text]:focus {
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid white;

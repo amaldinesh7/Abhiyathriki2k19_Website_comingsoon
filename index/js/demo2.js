@@ -8,9 +8,8 @@
 	var open = false;
 	button.addEventListener('click', handler, false);
 
-	if (window.matchMedia("(max-width: 600px)").matches) {
+	if (window.matchMedia("(max-width: 900px)").matches) {
 		open = false;
-		console.log("open")
 		handler();
 	}
 

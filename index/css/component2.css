@@ -13,7 +13,6 @@ body {
 }
 
 .component {
-	
 	text-align: center;
 }
 
@@ -28,7 +27,6 @@ body {
 
 .cn-button {
 	z-index: 11;
-	
 	margin-top: 7rem;
 	padding-top: 0em;
 	width: 4em;
@@ -267,11 +265,56 @@ body {
 	display: none;
 }
 
+#title {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 50px;
+	letter-spacing: 10px;
+}
+
+.main-title {
+	word-break: break-all;
+	-webkit-text-fill-color: white;
+}
+
+#title-a3k{
+	background: -webkit-linear-gradient(white, white);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+#date {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.logoa3k {
+	width: 325px;
+	height: 200px;
+	padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 620px) {
+	#title {
+		font-size: 21px;
+	}
+	#title .logoa3k {
+		width: 50%;
+		height: auto;
+	}
 	.no-csstransforms li {
 		width: 4em;
 		height: 4em;
 		line-height: 4em;
+	}
+	.csstransforms .opened-nav li {
+		font-size: 1.1em;
 	}
 }
 

@@ -8,14 +8,20 @@
 	var open = false;
 	button.addEventListener('click', handler, false);
 
+	if (window.matchMedia("(max-width: 600px)").matches) {
+		open = false;
+		console.log("open")
+		handler();
+	}
+
 	function handler(){
-	  if(!open){
+	  if(!open) {
 	    this.innerHTML = "x";
 	    classie.add(wrapper, 'opened-nav');
 	  }
-	  else{
+	  else {
 	    this.innerHTML = "+";
-		classie.remove(wrapper, 'opened-nav');
+			classie.remove(wrapper, 'opened-nav');
 	  }
 	  open = !open;
 	}

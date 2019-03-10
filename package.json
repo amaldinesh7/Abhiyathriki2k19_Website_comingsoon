@@ -1,0 +1,25 @@
+{
+  "name": "Abhiyathriki2k19_Website_comingsoon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start -s -w -f .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaldinesh4549/Abhiyathriki2k19_Website_comingsoon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaldinesh4549/Abhiyathriki2k19_Website_comingsoon/issues"
+  },
+  "homepage": "https://github.com/amaldinesh4549/Abhiyathriki2k19_Website_comingsoon#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3"
+  }
+}

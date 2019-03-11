@@ -38,8 +38,8 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 10px;
+  font-size: 25px;
+  letter-spacing: 7px;
 }
 	  
 	.logoa3k{
@@ -62,9 +62,9 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 10px;
-  margin-top: -60px;
+  font-size: 25px;
+  letter-spacing: 7px;
+  margin-top: -69px;
   padding-left: 10px;
 }
 	  
@@ -100,8 +100,8 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 10px;
+  font-size: 25px;
+  letter-spacing: 6px;
 }
 	  
 	.logoa3k{
@@ -140,6 +140,14 @@
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+	  #title {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 6px;
+}	
 
 }
 
@@ -160,3 +168,4 @@
   and (orientation: landscape) { 
 
 }
+

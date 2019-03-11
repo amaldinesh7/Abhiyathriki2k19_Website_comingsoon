@@ -271,12 +271,13 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 50px;
-	letter-spacing: 10px;
+	letter-spacing: 8px;
 }
 
 .main-title {
 	word-break: break-all;
 	-webkit-text-fill-color: white;
+	font-weight:700;
 }
 
 #title-a3k{
@@ -292,6 +293,8 @@ body {
 	font-family: 'Montserrat';
 	font-weight: 400;
 	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-top:15px;
 }
 
 .logoa3k {

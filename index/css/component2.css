@@ -27,10 +27,10 @@ body {
 
 .cn-button {
 	z-index: 11;
-	margin-top: 7rem;
+	margin-top: 9rem;
 	padding-top: 0em;
-	width: 4em;
-	height: 4em;
+	width: 2.3em;
+	height: 2.3em;
 	border: none;
 	border-radius: 50%;
 	background: none;
@@ -38,7 +38,7 @@ body {
 	color: white;
 	text-align: center;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 30px;
 	text-transform: uppercase;
 	cursor: pointer;
 	-webkit-backface-visibility: hidden;
@@ -49,7 +49,7 @@ body {
 	top: 100%;
 	left: 50%;
 	z-index: 10;
-	margin-top: -11em;
+	margin-top: -12em;
 	margin-left: -13.55em;
 	width: 27em;
 	height: 27em;
@@ -106,7 +106,7 @@ body {
 	margin-left: -10em;
 	width: 10em;
 	height: 10em;
-	font-size: 1em;
+	font-size: 1.2em;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;

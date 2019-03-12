@@ -3,15 +3,50 @@
 /* Portrait and Landscape */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 568px)
+  and (max-device-width: 640px)
   and (-webkit-min-device-pixel-ratio: 2) {
+	  
+	  #title-sponsor{
+	
+	letter-spacing:5px !important;
+	margin-top:.4em !important;
+	font-size: 27px;
+}
+	  #title {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 7px;
+}
+	  #presents{
+	font-size:21px;
+	letter-spacing: 3px;
+	padding-top:7px;
+	padding-bottom:3rem;
+}
+	  #date{
+		  font-size:25px;
+	  }
+	  #title-a3kr{
+	
+	font-size:22px;
+	letter-spacing:6px;
+		  padding-bottom:4px;
+}
+	  #title-a3k{
+	
+	font-size:29px;
+	letter-spacing:7px;
+}
 
 }
 
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 568px)
+  and (max-device-width: 640px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 }
@@ -19,7 +54,7 @@
 /* Landscape */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 568px)
+  and (max-device-width: 640px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
 
@@ -145,9 +180,22 @@
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 28.5px;
   letter-spacing: 6px;
 }	
+#title-sponsor{
+	
+	letter-spacing:5px !important;
+	margin-top:.5em !important;
+	font-size: 29.5px;
+}
+	  #presents{
+	
+	letter-spacing: 3px;
+	padding-top:7px;
+	padding-bottom:3rem;
+}
+
 
 }
 

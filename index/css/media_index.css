@@ -6,11 +6,34 @@
   and (max-device-width: 640px)
   and (-webkit-min-device-pixel-ratio: 2) {
 	  
+	  .cn-button {
+	z-index: 11;
+	margin-top: 8rem;
+	
+	width: 2.3em;
+	height: 2.3em;
+	border: none;
+	
+}
+
+.csstransforms .cn-wrapper {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	z-index: 10;
+	margin-top: -11em;
+	margin-left: -13.55em;
+	width: 27em;
+	height: 27em;
+	border:none;
+}
+
+	  
 	  #title-sponsor{
 	
-	letter-spacing:5px !important;
-	margin-top:.4em !important;
-	font-size: 27px;
+	letter-spacing:1px !important;
+	margin-top:.5em !important;
+	font-size: 21px;
 }
 	  #title {
   color: #FFF;
@@ -21,9 +44,9 @@
   letter-spacing: 7px;
 }
 	  #presents{
-	font-size:21px;
-	letter-spacing: 3px;
-	padding-top:7px;
+	font-size:15px;
+	letter-spacing: 1.5px;
+	padding-top:6px;
 	padding-bottom:3rem;
 }
 	  #date{
@@ -31,14 +54,14 @@
 	  }
 	  #title-a3kr{
 	
-	font-size:22px;
-	letter-spacing:6px;
+	font-size:19px;
+	letter-spacing:4px;
 		  padding-bottom:4px;
 }
 	  #title-a3k{
 	
-	font-size:29px;
-	letter-spacing:7px;
+	font-size:28px;
+	letter-spacing:5px;
 }
 
 }
@@ -74,14 +97,14 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 25px;
-  letter-spacing: 7px;
+  letter-spacing: 4px;
 }
 	  
 	.logoa3k{
 	
 	width:200px;
 	height:100px;
-	padding-bottom:10px;
+	padding-bottom:8px;
 	
 }
 
@@ -92,13 +115,14 @@
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { #title {
+  and (orientation: portrait) { 
+	  #title {
   color: #FFF;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 25px;
-  letter-spacing: 7px;
+  letter-spacing: 5px;
   margin-top: -69px;
   padding-left: 10px;
 }
@@ -107,7 +131,7 @@
 	
 	width:200px;
 	height:100px;
-	padding-bottom:10px;
+	padding-bottom:8px;
 	
 }
 
@@ -136,7 +160,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 25px;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
 }
 	  
 	.logoa3k{
@@ -145,6 +169,18 @@
 	height:100px;
 	padding-bottom:10px;
 	
+}
+	  #title-sponsor{
+	
+	letter-spacing:1px !important;
+	margin-top:.5em !important;
+	font-size: 19px;
+}
+	  #presents{
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding-top:5px;
+	padding-bottom:3rem;
 }
 
 
@@ -181,18 +217,18 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 28.5px;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
 }	
 #title-sponsor{
 	
-	letter-spacing:5px !important;
+	letter-spacing:1px !important;
 	margin-top:.5em !important;
-	font-size: 29.5px;
+	font-size: 24px;
 }
 	  #presents{
-	
-	letter-spacing: 3px;
-	padding-top:7px;
+	font-size: 16px;
+	letter-spacing: 2px;
+	padding-top:5px;
 	padding-bottom:3rem;
 }
 

@@ -314,6 +314,7 @@ body {
 }
 #date {
 	font-family: 'Quicksand', sans-serif;
+	color:rgba(242,31,63,1);
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 1px;
